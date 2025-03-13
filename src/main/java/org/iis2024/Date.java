@@ -19,13 +19,13 @@ public class Date {
   private final int day;
   private final int month;
   private final int year;
-
+  private int  fieldAddedByCollaborator;
   /**
    * Retrieves the day component of this date.
    *
    * @return The day of the month (1-31).
    */
- 
+
   public int getDay() {
     return day;
   }
