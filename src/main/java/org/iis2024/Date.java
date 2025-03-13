@@ -27,7 +27,7 @@ public class Date {
     System.out.println("Method added by the owner");
   }
 
->>>>>>> 92c7dbf8d30f9f6a678845997fc8fa53643db68e
+
   /**
    * Retrieves the day component of this date.
    *
@@ -68,6 +68,11 @@ public class Date {
     this.day = day;
     this.month = month;
     this.year = year;
+  }
+  public Date(int tag, int monat, int jahr) {
+    this.day = tag;
+    this.month = monat;
+    this.year = jahr;
   }
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
