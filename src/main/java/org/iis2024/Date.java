@@ -19,7 +19,15 @@ public class Date {
   private final int day;
   private final int month;
   private final int year;
+<<<<<<< HEAD
   private int  fieldAddedByCollaborator;
+=======
+
+  public void methodAddedByOwner(){
+    System.out.println("Method added by the owner");
+  }
+
+>>>>>>> 92c7dbf8d30f9f6a678845997fc8fa53643db68e
   /**
    * Retrieves the day component of this date.
    *
@@ -61,7 +69,6 @@ public class Date {
     this.month = month;
     this.year = year;
   }
-
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
    * month within 1 to 12, and the day valid within the given month and year, considering leap
